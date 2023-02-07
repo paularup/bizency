@@ -1,0 +1,110 @@
+*{
+
+margin: 0;
+padding: 0;
+box-sizing: 0;
+
+}
+
+:root{
+
+--primaryfont:'Ubuntu Mono', monospace;
+
+--secondaryfont:'Abril Fatface', cursive;
+--thirdfont:'Open Sans', sans-serif;
+
+--primarycolor: #0f2f44;
+--yellowcolor: #ffc712;
+}
+
+/* *Comon css starts here */
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--primaryfont);
+}
+.container{
+    widht: 1170px;
+    margin:auto
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.align-center{
+    align-items: center;
+}
+/* *comon css ends here */
+/* *HEADER STARTS HERE */
+header{
+    background-color: var(--primarycolor);
+    color: white;
+    padding: 19px 0;
+}
+header .header-left{
+   
+    width: 50%;
+}
+header .header-right{
+   
+width: 50%;
+text-align: right;
+}
+/* *HEADER ENDS HERE */
+
+/* *NAV STARTS HERE */
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+}
+nav .menu ul li{
+    text-align: right;
+}
+nav .menu ul li{
+    display: inline-block;
+}
+
+nav .menu ul li a{
+    padding: 40px 20px;
+    display: block;
+    font-weight: 500;
+    font-size: 16px;
+    color: #222;
+    transition: 0.3S;
+    
+}
+nav ul li:hover a{
+    background-color: #fff9e6;
+    color: var(--yellowcolor);
+}
+nav ul li span{
+    border: 1px solid #888;
+    color: #888;
+   width: 30px;
+   height: 30px;
+   line-height: 30px;
+   display: block;
+    text-align: center;
+    border-radius: 50%;
+}
+#banner{
+    background-image: url(./);
+}
+
+
+/* *NAV ENDS HERE */
+/* BANNER STARTS HERE */
+#banner{
+    background-image: url(../images/banner.jpg);
+    height: 600px;
+}
+/* BANNER ENDS HERE */
+
